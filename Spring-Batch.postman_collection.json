@@ -1,0 +1,44 @@
+{
+	"info": {
+		"_postman_id": "a23f4675-e984-429b-9bb3-18c366d8cf48",
+		"name": "Spring-Batch",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4335921"
+	},
+	"item": [
+		{
+			"name": "Clients-WS",
+			"item": [
+				{
+					"name": "RequestClients",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:8888/clients?page=0&size=10",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8888",
+							"path": [
+								"clients"
+							],
+							"query": [
+								{
+									"key": "page",
+									"value": "0"
+								},
+								{
+									"key": "size",
+									"value": "10"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
